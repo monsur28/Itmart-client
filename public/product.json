@@ -1,0 +1,380 @@
+[
+    {
+        "ProductName": "Apple MacBook Air M2",
+        "BrandName": "Apple",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-2022-m2-chip-01-500x500.webp",
+        "Description": "Ultra-thin and lightweight laptop with M2 chip.",
+        "LongDescription": "The Apple MacBook Air M2 is a sleek, ultra-thin laptop powered by the M2 chip. It offers high performance for everyday tasks and has a stunning Retina display.",
+        "KeyFeatures": {
+            "Processor": "Apple M2",
+            "RAM": "8GB",
+            "Storage": "256GB SSD",
+            "Display": "13.6-inch Retina",
+            "Features": "Touch ID, Wi-Fi 6"
+        },
+        "Price": 1199.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "HP Spectre x360 14",
+        "BrandName": "HP",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/14-e2027tu/14-e2027tu-01-500x500.webp",
+        "Description": "Convertible laptop with high-end specs.",
+        "LongDescription": "The HP Spectre x360 14 is a versatile convertible laptop featuring an Intel i7 processor and a 4K OLED touchscreen. It’s ideal for both productivity and multimedia tasks.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1165G7",
+            "RAM": "16GB",
+            "Storage": "1TB SSD",
+            "Display": "13.5-inch 4K OLED",
+            "Features": "Convertible design, Bang & Olufsen speakers"
+        },
+        "Price": 1499.99,
+        "Category": "Laptop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Samsung Galaxy Book Pro 360",
+        "BrandName": "Samsung",
+        "ProductImage": "https://m.media-amazon.com/images/I/51Nlp7T1j2L._SL1500_.jpg",
+        "Description": "Flexible 2-in-1 laptop with AMOLED display.",
+        "LongDescription": "The Samsung Galaxy Book Pro 360 features a 2-in-1 design with an AMOLED display and S Pen support. It’s perfect for professionals who need flexibility and high performance.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1165G7",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "13.3-inch AMOLED",
+            "Features": "S Pen support, 360-degree hinge"
+        },
+        "Price": 1399.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Acer Aspire 5",
+        "BrandName": "Acer",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-5-5m-a515-58gm/aspire-5-5m-a515-58gm-500x500.webp",
+        "Description": "Budget-friendly laptop with solid performance.",
+        "LongDescription": "The Acer Aspire 5 is an affordable laptop featuring an AMD Ryzen 5 processor, making it suitable for everyday tasks and light productivity.",
+        "KeyFeatures": {
+            "Processor": "AMD Ryzen 5 5500U",
+            "RAM": "8GB",
+            "Storage": "512GB SSD",
+            "Display": "15.6-inch Full HD",
+            "Features": "Backlit keyboard, Fingerprint reader"
+        },
+        "Price": 699.99,
+        "Category": "Laptop",
+        "Ratings": 4.4,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Asus ZenBook 14",
+        "BrandName": "Asus",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/zenbook-14/zenbook-14-um425ua-01-500x500.webp",
+        "Description": "Premium ultrabook with compact design.",
+        "LongDescription": "The Asus ZenBook 14 combines a compact design with premium performance, featuring an Intel i7 processor and a sleek aluminum chassis. It’s perfect for professionals on the go.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1165G7",
+            "RAM": "16GB",
+            "Storage": "1TB SSD",
+            "Display": "14-inch Full HD",
+            "Features": "ErgoLift hinge, NumberPad"
+        },
+        "Price": 1299.99,
+        "Category": "Laptop",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Lenovo ThinkPad X1 Carbon Gen 10",
+        "BrandName": "Lenovo",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/thinkpad-x1-carbon-g11/thinkpad-x1-carbon-g11-01-500x500.webp",
+        "Description": "High-end business laptop with durability.",
+        "LongDescription": "The Lenovo ThinkPad X1 Carbon Gen 10 is a high-end business laptop known for its durability and performance. It features the latest Intel processors and a robust build.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1260P",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "14-inch WUXGA",
+            "Features": "Mil-spec durability, Backlit keyboard"
+        },
+        "Price": 1799.99,
+        "Category": "Laptop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Dell XPS 13",
+        "BrandName": "Dell",
+        "ProductImage": "https://m.media-amazon.com/images/I/61OBvwVHtQL._SL1280_.jpg",
+        "Description": "Compact and powerful laptop with InfinityEdge display.",
+        "LongDescription": "The Dell XPS 13 offers a compact design with powerful specs, including the latest Intel processors and an InfinityEdge display. It’s ideal for those who need a powerful laptop in a small form factor.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1250U",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "13.4-inch 4K UHD",
+            "Features": "InfinityEdge display, Precision touchpad"
+        },
+        "Price": 1499.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Apple iMac 24",
+        "BrandName": "Apple",
+        "ProductImage": "https://m.media-amazon.com/images/I/61KBIj28ZUL._SL1500_.jpg",
+        "Description": "All-in-one desktop with M1 chip.",
+        "LongDescription": "The Apple iMac 24\" is an all-in-one desktop featuring the M1 chip and a 4.5K Retina display. It offers powerful performance and a sleek, modern design.",
+        "KeyFeatures": {
+            "Processor": "Apple M1",
+            "RAM": "8GB",
+            "Storage": "256GB SSD",
+            "Display": "24-inch 4.5K Retina",
+            "Features": "All-in-one design, FaceTime HD camera"
+        },
+        "Price": 1499.99,
+        "Category": "Desktop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "HP Pavilion Desktop",
+        "BrandName": "HP",
+        "ProductImage": "https://m.media-amazon.com/images/I/61wt6u4yXEL._SL1500_.jpg",
+        "Description": "Desktop with Intel i5 and modern design.",
+        "LongDescription": "The HP Pavilion Desktop features an Intel i5 processor and a sleek design, making it suitable for both home and office use. It provides reliable performance for daily tasks.",
+        "KeyFeatures": {
+            "Processor": "Intel i5-11400",
+            "RAM": "8GB",
+            "Storage": "512GB SSD",
+            "Display": "21.45 inches",
+            "Features": "Modern design, Multiple connectivity options"
+        },
+        "Price": 899.99,
+        "Category": "Desktop",
+        "Ratings": 4.5,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Samsung All-In-One 27",
+        "BrandName": "Samsung",
+        "ProductImage": "https://www.themobileindian.com/wp-content/uploads/2024/04/Samsung-AIO-Pro-PC.jpg",
+        "Description": "27\" all-in-one desktop with powerful specs.",
+        "LongDescription": "The Samsung All-In-One 27\" combines a sleek design with high performance, featuring an Intel i7 processor and a large 27\" display. It’s perfect for both work and entertainment.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-11700",
+            "RAM": "16GB",
+            "Storage": "1TB SSD",
+            "Display": "27-inch Full HD",
+            "Features": "All-in-one design, Integrated speakers"
+        },
+        "Price": 1299.99,
+        "Category": "Desktop",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Acer Predator Orion 3000",
+        "BrandName": "Acer",
+        "ProductImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn%3AANd9GcSlX9CYS4L2O2L4FdxsT0rZJx8q0oNt86_iXlng8h1n89UAhwJzl21u3qmNGNQCTtGRCXlibkx8vovJ46IFpe65F4WxNZFicg",
+        "Description": "Gaming desktop with high-performance components.",
+        "LongDescription": "The Acer Predator Orion 3000 is a high-performance gaming desktop featuring an Intel i7 processor and NVIDIA GeForce RTX 3060 GPU. It’s designed for serious gamers who demand top performance.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-12700",
+            "RAM": "16GB",
+            "Storage": "1TB SSD",
+            "Display": "N/A",
+            "Features": "NVIDIA GeForce RTX 3060, RGB lighting"
+        },
+        "Price": 1599.99,
+        "Category": "Desktop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Asus ROG Strix G15",
+        "BrandName": "Asus",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/rog-strix-g15-g513qm/rog-strix-g15-g513qm-01-500x500.jpg",
+        "Description": "Gaming laptop with high refresh rate display.",
+        "LongDescription": "The Asus ROG Strix G15 is designed for gamers, featuring an AMD Ryzen 7 processor and a 15.6\" display with a 144Hz refresh rate. It offers exceptional performance and visual clarity.",
+        "KeyFeatures": {
+            "Processor": "AMD Ryzen 7 5800H",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "15.6-inch Full HD 144Hz",
+            "Features": "NVIDIA GeForce RTX 3060, Aura Sync RGB"
+        },
+        "Price": 1399.99,
+        "Category": "Laptop",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Lenovo Legion 5 Pro",
+        "BrandName": "Lenovo",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/legion-pro-5-16arx8/legion-pro-5-16arx8-01-500x500.webp",
+        "Description": "Powerful gaming laptop with QHD display.",
+        "LongDescription": "The Lenovo Legion 5 Pro features a powerful AMD Ryzen 7 processor and a 16\" QHD display with a 165Hz refresh rate. It’s designed for gamers who require top performance and high resolution.",
+        "KeyFeatures": {
+            "Processor": "AMD Ryzen 7 5800H",
+            "RAM": "16GB",
+            "Storage": "1TB SSD",
+            "Display": "16-inch QHD 165Hz",
+            "Features": "NVIDIA GeForce RTX 3070, Coldfront 3.0 cooling"
+        },
+        "Price": 1799.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Dell Inspiron 24 5000",
+        "BrandName": "Dell",
+        "ProductImage": "https://m.media-amazon.com/images/I/41H9ADGRWRL.jpg",
+        "Description": "All-in-one desktop with compact design.",
+        "LongDescription": "The Dell Inspiron 24 5000 is an all-in-one desktop featuring an Intel i5 processor and a 24\" Full HD display. It combines performance and a compact design for home or office use.",
+        "KeyFeatures": {
+            "Processor": "Intel i5-11300",
+            "RAM": "8GB",
+            "Storage": "512GB SSD",
+            "Display": "24-inch Full HD",
+            "Features": "All-in-one design, Integrated webcam"
+        },
+        "Price": 999.99,
+        "Category": "Desktop",
+        "Ratings": 4.5,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Apple Mac Mini M2",
+        "BrandName": "Apple",
+        "ProductImage": "https://m.media-amazon.com/images/I/61jup8h--XL._SL1500_.jpg",
+        "Description": "Compact desktop with M2 chip.",
+        "LongDescription": "The Apple Mac Mini M2 offers powerful performance in a compact form factor. It features the M2 chip and is ideal for users who need a high-performance desktop without taking up much space.",
+        "KeyFeatures": {
+            "Processor": "Apple M2",
+            "RAM": "8GB",
+            "Storage": "256GB SSD",
+            "Display": "N/A",
+            "Features": "Compact design, Multiple ports"
+        },
+        "Price": 899.99,
+        "Category": "Desktop",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "HP Elite Dragonfly",
+        "BrandName": "HP",
+        "ProductImage": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/s/a/sandwalker_intel_evo_i7.png",
+        "Description": "Lightweight business laptop with premium features.",
+        "LongDescription": "The HP Elite Dragonfly is a premium, lightweight business laptop with high-end features. It includes the latest Intel processors and is designed for mobile professionals.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1185G7",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "13.5-inch Full HD",
+            "Features": "Convertible design, Long battery life"
+        },
+        "Price": 1799.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Samsung Odyssey G7",
+        "BrandName": "Samsung",
+        "ProductImage": "https://m.media-amazon.com/images/I/81pmmCJJTxL._SL1500_.jpg",
+        "Description": "Curved gaming monitor with high refresh rate.",
+        "LongDescription": "The Samsung Odyssey G7 features a 32\" curved screen with a 240Hz refresh rate and QHD resolution. It’s designed to provide an immersive gaming experience with smooth visuals.",
+        "KeyFeatures": {
+            "Processor": "N/A",
+            "RAM": "N/A",
+            "Storage": "N/A",
+            "Display": "32-inch QHD 240Hz",
+            "Features": "Curved screen, G-SYNC compatible"
+        },
+        "Price": 799.99,
+        "Category": "Monitor",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Acer Nitro XV282K",
+        "BrandName": "Acer",
+        "ProductImage": "https://m.media-amazon.com/images/I/81SyeQtqLuL._SL1500_.jpg",
+        "Description": "4K monitor with high refresh rate.",
+        "LongDescription": "The Acer Nitro XV282K is a 28\" 4K monitor with a 144Hz refresh rate. It delivers crisp visuals and smooth performance, making it a great choice for both gaming and professional use.",
+        "KeyFeatures": {
+            "Processor": "N/A",
+            "RAM": "N/A",
+            "Storage": "N/A",
+            "Display": "28-inch 4K 144Hz",
+            "Features": "HDR400, AMD FreeSync"
+        },
+        "Price": 899.99,
+        "Category": "Monitor",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Asus ProArt PA32UCX",
+        "BrandName": "Asus",
+        "ProductImage": "https://m.media-amazon.com/images/I/81CFn-NfutL._SL1500_.jpg",
+        "Description": "Professional monitor with 4K resolution and HDR support.",
+        "LongDescription": "The Asus ProArt PA32UCX is a 32\" professional monitor with 4K resolution and HDR support. It’s designed for content creators who need precise color accuracy and high dynamic range.",
+        "KeyFeatures": {
+            "Processor": "N/A",
+            "RAM": "N/A",
+            "Storage": "N/A",
+            "Display": "32-inch 4K HDR",
+            "Features": "Color accuracy, Multiple connectivity options"
+        },
+        "Price": 1299.99,
+        "Category": "Monitor",
+        "Ratings": 4.9,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Lenovo ThinkVision P32u-10",
+        "BrandName": "Lenovo",
+        "ProductImage": "https://m.media-amazon.com/images/I/51fIWSBoC9L.jpg",
+        "Description": "4K monitor with wide color gamut.",
+        "LongDescription": "The Lenovo ThinkVision P32u-10 is a 32\" 4K monitor with a wide color gamut. It’s ideal for professionals who need accurate color reproduction and high resolution for detailed work.",
+        "KeyFeatures": {
+            "Processor": "N/A",
+            "RAM": "N/A",
+            "Storage": "N/A",
+            "Display": "32-inch 4K",
+            "Features": "Wide color gamut, Ergonomic stand"
+        },
+        "Price": 999.99,
+        "Category": "Monitor",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Dell UltraSharp U2720Q",
+        "BrandName": "Dell",
+        "ProductImage": "https://m.media-amazon.com/images/I/71v7mcJxwJL._SL1500_.jpg",
+        "Description": "27\" 4K monitor with USB-C connectivity.",
+        "LongDescription": "The Dell UltraSharp U2720Q is a 27\" 4K monitor with USB-C connectivity. It offers high resolution and versatile connectivity options for both professionals and general users.",
+        "KeyFeatures": {
+            "Processor": "N/A",
+            "RAM": "N/A",
+            "Storage": "N/A",
+            "Display": "27-inch 4K",
+            "Features": "USB-C, Adjustable stand"
+        },
+        "Price": 849.99,
+        "Category": "Monitor",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-16"
+    }
+]

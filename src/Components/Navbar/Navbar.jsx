@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { FaShoppingCart } from "react-icons/fa";
 import logo from "./../../assets/logo.png";
 import useAuth from "../../Hooks/useAuth";
 import Swal from "sweetalert2";
@@ -6,13 +8,15 @@ import Swal from "sweetalert2";
 const Navbar = () => {
   const { user, logOut } = useAuth();
   const navigate = useNavigate();
+  const [isCartModalOpen, setIsCartModalOpen] = useState(false); // State for cart modal
+  const [cartItems, setCartItems] = useState([]); // State for cart items
 
   const handleLogOut = () => {
     logOut()
       .then(() => {
         Swal.fire({
           title: "Good job!",
-          text: "LogOut Succesfully",
+          text: "Logged out successfully",
           icon: "success",
         });
         navigate("/login");
@@ -25,12 +29,29 @@ const Navbar = () => {
         });
       });
   };
+
+  const toggleCartModal = () => {
+    setIsCartModalOpen(!isCartModalOpen);
+  };
+
+  const handleRemoveItem = (itemId) => {
+    setCartItems(cartItems.filter((item) => item.id !== itemId));
+  };
+
   return (
     <div>
-      <nav className="bg-white fixed w-full z-20 top-0 start-0 ">
+      <nav className="bg-white fixed w-full z-20 top-0 start-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <img src={logo} className="h-16 w-64" alt="Flowbite Logo" />
+
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button
+              type="button"
+              onClick={toggleCartModal}
+              className="text-gray-700 hover:text-gray-900 mr-5"
+            >
+              <FaShoppingCart size={24} />
+            </button>
             {user ? (
               <div className="dropdown dropdown-end">
                 <div
@@ -39,10 +60,7 @@ const Navbar = () => {
                   className="btn btn-ghost btn-circle avatar"
                 >
                   <div className="w-10 rounded-full border border-solid">
-                    <img
-                      alt="Tailwind CSS Navbar component"
-                      src={user.photoURL}
-                    />
+                    <img alt="User Avatar" src={user.photoURL} />
                   </div>
                 </div>
                 <ul
@@ -64,6 +82,7 @@ const Navbar = () => {
                 </button>
               </Link>
             )}
+
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -90,15 +109,15 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            className="items-center  justify-between hidden w-full md:flex md:w-auto md:order-1"
+            className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 text-black">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 text-black">
               <li>
                 <NavLink
                   to="/"
                   href="#"
-                  className="block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent  md:p-0 md:dark:text-blue-500"
+                  className="block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:text-blue-500"
                   aria-current="page"
                 >
                   Home
@@ -134,6 +153,43 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+
+      {/* Cart Modal */}
+      {isCartModalOpen && (
+        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+            <h2 className="text-2xl font-semibold mb-4">Your Cart</h2>
+            {cartItems.length === 0 ? (
+              <p>Your cart is empty.</p>
+            ) : (
+              <ul className="space-y-4">
+                {cartItems.map((item) => (
+                  <li
+                    key={item.id}
+                    className="flex justify-between items-center"
+                  >
+                    <span>{item.name}</span>
+                    <button
+                      onClick={() => handleRemoveItem(item.id)}
+                      className="text-red-500 hover:text-red-700"
+                    >
+                      Remove
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+            <div className="mt-4 flex justify-end">
+              <button
+                onClick={toggleCartModal}
+                className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

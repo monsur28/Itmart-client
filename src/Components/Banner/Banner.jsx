@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import banner from "../../assets/Banner.png";
 const Banner = () => {
   return (
@@ -18,12 +19,13 @@ const Banner = () => {
             Find the perfect laptop for your needs with top-notch performance
             and design.
           </p>
-          <a
+          <Link
+            to="/product"
             href="#shop-now"
             className="bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold text-lg hover:bg-indigo-700 transition duration-300"
           >
             Shop Now
-          </a>
+          </Link>
         </div>
       </div>
     </div>

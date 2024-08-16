@@ -5,6 +5,8 @@ import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import Main from "../Components/Main/Main";
 import ProductPage from "../Components/ProductPage/ProductPage";
+import PrivateRoute from "../../src/Router/PrivateRoute";
+import ProductDetails from "../Components/ProductDetails/ProductDetails";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ export const router = createBrowserRouter([
       {
         path: "/product",
         element: <ProductPage />,
+      },
+      {
+        path: "/product/:id",
+        element: (
+          <PrivateRoute>
+            <ProductDetails />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/login",

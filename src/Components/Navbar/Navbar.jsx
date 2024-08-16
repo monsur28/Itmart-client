@@ -95,13 +95,14 @@ const Navbar = () => {
           >
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 text-black">
               <li>
-                <a
+                <NavLink
+                  to="/"
                   href="#"
                   className="block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent  md:p-0 md:dark:text-blue-500"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
                 <NavLink

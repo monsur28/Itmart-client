@@ -15,7 +15,7 @@
         "Price": 1199.99,
         "Category": "Laptop",
         "Ratings": 4.7,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-06-16"
     },
     {
         "ProductName": "HP Spectre x360 14",
@@ -33,7 +33,7 @@
         "Price": 1499.99,
         "Category": "Laptop",
         "Ratings": 4.8,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-03-26"
     },
     {
         "ProductName": "Samsung Galaxy Book Pro 360",
@@ -51,7 +51,7 @@
         "Price": 1399.99,
         "Category": "Laptop",
         "Ratings": 4.7,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-05-25"
     },
     {
         "ProductName": "Acer Aspire 5",
@@ -69,7 +69,7 @@
         "Price": 699.99,
         "Category": "Laptop",
         "Ratings": 4.4,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-02-16"
     },
     {
         "ProductName": "Asus ZenBook 14",
@@ -87,7 +87,7 @@
         "Price": 1299.99,
         "Category": "Laptop",
         "Ratings": 4.6,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-01-16"
     },
     {
         "ProductName": "Lenovo ThinkPad X1 Carbon Gen 10",
@@ -105,7 +105,7 @@
         "Price": 1799.99,
         "Category": "Laptop",
         "Ratings": 4.8,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-04-10"
     },
     {
         "ProductName": "Dell XPS 13",
@@ -123,7 +123,7 @@
         "Price": 1499.99,
         "Category": "Laptop",
         "Ratings": 4.7,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2023-02-16"
     },
     {
         "ProductName": "Apple iMac 24",
@@ -141,7 +141,7 @@
         "Price": 1499.99,
         "Category": "Desktop",
         "Ratings": 4.8,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2023-02-16"
     },
     {
         "ProductName": "HP Pavilion Desktop",
@@ -159,7 +159,7 @@
         "Price": 899.99,
         "Category": "Desktop",
         "Ratings": 4.5,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2023-02-16"
     },
     {
         "ProductName": "Samsung All-In-One 27",
@@ -231,7 +231,7 @@
         "Price": 1799.99,
         "Category": "Laptop",
         "Ratings": 4.7,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-15"
     },
     {
         "ProductName": "Dell Inspiron 24 5000",
@@ -249,7 +249,7 @@
         "Price": 999.99,
         "Category": "Desktop",
         "Ratings": 4.5,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-15"
     },
     {
         "ProductName": "Apple Mac Mini M2",
@@ -267,7 +267,7 @@
         "Price": 899.99,
         "Category": "Desktop",
         "Ratings": 4.6,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-15"
     },
     {
         "ProductName": "HP Elite Dragonfly",
@@ -285,7 +285,7 @@
         "Price": 1799.99,
         "Category": "Laptop",
         "Ratings": 4.7,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-14"
     },
     {
         "ProductName": "Samsung Odyssey G7",
@@ -303,7 +303,7 @@
         "Price": 799.99,
         "Category": "Monitor",
         "Ratings": 4.8,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-12"
     },
     {
         "ProductName": "Acer Nitro XV282K",
@@ -321,7 +321,7 @@
         "Price": 899.99,
         "Category": "Monitor",
         "Ratings": 4.7,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-12"
     },
     {
         "ProductName": "Asus ProArt PA32UCX",
@@ -339,7 +339,7 @@
         "Price": 1299.99,
         "Category": "Monitor",
         "Ratings": 4.9,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-10"
     },
     {
         "ProductName": "Lenovo ThinkVision P32u-10",
@@ -357,7 +357,7 @@
         "Price": 999.99,
         "Category": "Monitor",
         "Ratings": 4.8,
-        "ProductCreationDateTime": "2024-08-16"
+        "ProductCreationDateTime": "2024-08-08"
     },
     {
         "ProductName": "Dell UltraSharp U2720Q",
@@ -374,6 +374,382 @@
         },
         "Price": 849.99,
         "Category": "Monitor",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-11"
+    },
+    {
+        "ProductName": "Microsoft Surface Laptop 5",
+        "BrandName": "Microsoft",
+        "ProductImage": "https://m.media-amazon.com/images/I/51Xm4-04kTL._AC_SL1278_.jpg",
+        "Description": "Elegant laptop with a high-resolution PixelSense touchscreen.",
+        "LongDescription": "The Microsoft Surface Laptop 5 is designed with a high-resolution PixelSense touchscreen and the latest Intel processors. It combines style with high performance for both work and entertainment.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1255U",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "15-inch PixelSense",
+            "Features": "Touchscreen, USB-C"
+        },
+        "Price": 1599.99,
+        "Category": "Laptop",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-08-11"
+    },
+    {
+        "ProductName": "Razer Blade 15 Advanced",
+        "BrandName": "Razer",
+        "ProductImage": "https://m.media-amazon.com/images/I/81sX1nwD+fL._AC_SL1500_.jpg",
+        "Description": "High-performance gaming laptop with a sleek design.",
+        "LongDescription": "The Razer Blade 15 Advanced is a high-performance gaming laptop featuring an Intel i9 processor and NVIDIA GeForce RTX 3080. It’s built for gamers who demand top-tier specs and portability.",
+        "KeyFeatures": {
+            "Processor": "Intel i9-12900H",
+            "RAM": "32GB",
+            "Storage": "1TB SSD",
+            "Display": "15.6-inch QHD 240Hz",
+            "Features": "NVIDIA GeForce RTX 3080, RGB keyboard"
+        },
+        "Price": 2399.99,
+        "Category": "Laptop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-05"
+    },
+    {
+        "ProductName": "LG Gram 17",
+        "BrandName": "LG",
+        "ProductImage": "https://m.media-amazon.com/images/I/713l92BGRwL._AC_SL1500_.jpg",
+        "Description": "Lightweight laptop with a large 17-inch display.",
+        "LongDescription": "The LG Gram 17 is a lightweight laptop featuring a large 17-inch display and the latest Intel processors. It’s designed for those who need a spacious screen without compromising on portability.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1365U",
+            "RAM": "16GB",
+            "Storage": "1TB SSD",
+            "Display": "17-inch WQXGA",
+            "Features": "Ultra-lightweight, Long battery life"
+        },
+        "Price": 1899.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-02"
+    },
+    {
+        "ProductName": "MSI Creator Z16",
+        "BrandName": "MSI",
+        "ProductImage": "https://m.media-amazon.com/images/I/71SwszHutIL._AC_SL1500_.jpg",
+        "Description": "High-performance laptop for creators with a large screen.",
+        "LongDescription": "The MSI Creator Z16 is a powerful laptop designed for content creators, featuring a large 16-inch display and high-end specs including an Intel i9 processor and NVIDIA RTX graphics.",
+        "KeyFeatures": {
+            "Processor": "Intel i9-12900H",
+            "RAM": "32GB",
+            "Storage": "1TB SSD",
+            "Display": "16-inch QHD+",
+            "Features": "NVIDIA GeForce RTX 3060, High color accuracy"
+        },
+        "Price": 2199.99,
+        "Category": "Laptop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-07-02"
+    },
+    {
+        "ProductName": "Huawei MateBook X Pro",
+        "BrandName": "Huawei",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/huawei/matebook-x-pro/matebook-x-pro-01-500x500.jpg",
+        "Description": "Stylish ultrabook with high resolution and excellent build quality.",
+        "LongDescription": "The Huawei MateBook X Pro is a stylish ultrabook featuring a high-resolution touchscreen display and a premium build. It’s equipped with the latest Intel processors for a smooth and responsive experience.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-1265U",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "14.2-inch 3K",
+            "Features": "Touchscreen, Slim design"
+        },
+        "Price": 1599.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-07-08"
+    },
+    {
+        "ProductName": "Lenovo IdeaPad 3",
+        "BrandName": "Lenovo",
+        "ProductImage": "https://m.media-amazon.com/images/I/61QGMX0Qy6L._AC_SL1352_.jpg",
+        "Description": "Affordable and versatile laptop for everyday use.",
+        "LongDescription": "The Lenovo IdeaPad 3 is an affordable and versatile laptop suitable for everyday tasks. It features a reliable AMD processor and ample storage space for casual users.",
+        "KeyFeatures": {
+            "Processor": "AMD Ryzen 5 5500U",
+            "RAM": "8GB",
+            "Storage": "256GB SSD",
+            "Display": "15.6-inch Full HD",
+            "Features": "Budget-friendly, Good performance for daily tasks"
+        },
+        "Price": 699.99,
+        "Category": "Laptop",
+        "Ratings": 4.4,
+        "ProductCreationDateTime": "2024-07-10"
+    },
+    {
+        "ProductName": "Dell Alienware Aurora R15",
+        "BrandName": "Dell",
+        "ProductImage": "https://m.media-amazon.com/images/I/610xQwj-q7L._AC_SL1500_.jpg",
+        "Description": "High-performance gaming desktop with advanced cooling.",
+        "LongDescription": "The Dell Alienware Aurora R15 is a top-tier gaming desktop with advanced cooling and high-performance components, including the latest Intel processors and NVIDIA graphics for immersive gaming.",
+        "KeyFeatures": {
+            "Processor": "Intel i9-13900K",
+            "RAM": "32GB",
+            "Storage": "1TB SSD",
+            "Display": "N/A",
+            "Features": "NVIDIA GeForce RTX 4090, Advanced cooling system"
+        },
+        "Price": 2899.99,
+        "Category": "Desktop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-07-15"
+    },
+    {
+        "ProductName": "Apple Mac Pro",
+        "BrandName": "Apple",
+        "ProductImage": "https://m.media-amazon.com/images/I/71cZWwc6ZOL._AC_SL1500_.jpg",
+        "Description": "High-end desktop with customizable options for professionals.",
+        "LongDescription": "The Apple Mac Pro offers high-end performance with customizable options tailored for professional users needing powerful computing capabilities and expandability.",
+        "KeyFeatures": {
+            "Processor": "Intel Xeon W",
+            "RAM": "32GB",
+            "Storage": "1TB SSD",
+            "Display": "N/A",
+            "Features": "Customizable components, Professional-grade performance"
+        },
+        "Price": 5999.99,
+        "Category": "Desktop",
+        "Ratings": 4.9,
+        "ProductCreationDateTime": "2024-08-09"
+    },
+    {
+        "ProductName": "Acer ConceptD 7",
+        "BrandName": "Acer",
+        "ProductImage": "https://m.media-amazon.com/images/I/71zN8ledhwL._AC_SL1500_.jpg",
+        "Description": "High-performance laptop designed for creative professionals.",
+        "LongDescription": "The Acer ConceptD 7 is designed for creative professionals, featuring high-performance specs and a 4K display to meet the demands of graphic design, video editing, and other creative tasks.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-10750H",
+            "RAM": "32GB",
+            "Storage": "1TB SSD",
+            "Display": "15.6-inch 4K UHD",
+            "Features": "NVIDIA GeForce RTX 2080, Pantone validated"
+        },
+        "Price": 2299.99,
+        "Category": "Laptop",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-09"
+    },
+    {
+        "ProductName": "HP Omen 16",
+        "BrandName": "HP",
+        "ProductImage": "https://m.media-amazon.com/images/I/61w8VtfEhGL._AC_SL1293_.jpg",
+        "Description": "Gaming laptop with high refresh rate and powerful specs.",
+        "LongDescription": "The HP Omen 16 is a high-performance gaming laptop that features a 16-inch display with a high refresh rate and powerful specs to deliver smooth and immersive gaming experiences.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-13700H",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "16.1-inch QHD 165Hz",
+            "Features": "NVIDIA GeForce RTX 4070, Custom cooling"
+        },
+        "Price": 1899.99,
+        "Category": "Laptop",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-05-16"
+    },
+    {
+        "ProductName": "Asus ROG Strix Scar 17",
+        "BrandName": "Asus",
+        "ProductImage": "https://m.media-amazon.com/images/I/71pWUgQ8jeL._AC_SL1500_.jpg",
+        "Description": "Top-of-the-line gaming laptop with a 17-inch display.",
+        "LongDescription": "The Asus ROG Strix Scar 17 is a top-of-the-line gaming laptop with a 17-inch display, designed to deliver the highest performance in gaming and other demanding applications.",
+        "KeyFeatures": {
+            "Processor": "Intel i9-13980HX",
+            "RAM": "32GB",
+            "Storage": "1TB SSD",
+            "Display": "17.3-inch WQHD 240Hz",
+            "Features": "NVIDIA GeForce RTX 4090, High refresh rate"
+        },
+        "Price": 2599.99,
+        "Category": "Laptop",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-08-16"
+    },
+    {
+        "ProductName": "Gigabyte AORUS 15G",
+        "BrandName": "Gigabyte",
+        "ProductImage": "https://m.media-amazon.com/images/I/71zTlwloN8L._AC_SL1500_.jpg",
+        "Description": "High-performance gaming laptop with mechanical keyboard.",
+        "LongDescription": "The Gigabyte AORUS 15G is a high-performance gaming laptop that features a mechanical keyboard and powerful internals for a top-tier gaming experience.",
+        "KeyFeatures": {
+            "Processor": "Intel i7-11800H",
+            "RAM": "16GB",
+            "Storage": "512GB SSD",
+            "Display": "15.6-inch FHD 240Hz",
+            "Features": "NVIDIA GeForce RTX 3070, Mechanical keyboard"
+        },
+        "Price": 1799.99,
+        "Category": "Laptop",
+        "Ratings": 4.5,
+        "ProductCreationDateTime": "2024-08-01"
+    },
+    {
+        "ProductName": "BenQ EX3501R",
+        "BrandName": "BenQ",
+        "ProductImage": "https://m.media-amazon.com/images/I/61b2f3Dd91L._AC_SL1200_.jpg",
+        "Description": "Curved ultrawide monitor for immersive experiences.",
+        "LongDescription": "The BenQ EX3501R is an ultrawide curved monitor designed for immersive experiences, featuring a 35-inch screen with high resolution and a 100Hz refresh rate.",
+        "KeyFeatures": {
+            "Screen Size": "35-inch",
+            "Resolution": "3440x1440",
+            "Refresh Rate": "100Hz",
+            "Panel Type": "VA",
+            "Features": "Curved, HDR support"
+        },
+        "Price": 899.99,
+        "Category": "Monitor",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-08-14"
+    },
+    {
+        "ProductName": "Dell UltraSharp U2720Q",
+        "BrandName": "Dell",
+        "ProductImage": "https://m.media-amazon.com/images/I/A1Iqr2v1SIL._AC_SL1500_.jpg",
+        "Description": "4K monitor with excellent color accuracy for professionals.",
+        "LongDescription": "The Dell UltraSharp U2720Q is a 27-inch 4K monitor offering exceptional color accuracy and clarity, making it ideal for professional designers and photographers.",
+        "KeyFeatures": {
+            "Screen Size": "27-inch",
+            "Resolution": "3840x2160",
+            "Refresh Rate": "60Hz",
+            "Panel Type": "IPS",
+            "Features": "4K UHD, High color accuracy"
+        },
+        "Price": 699.99,
+        "Category": "Monitor",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2024-08-13"
+    },
+    {
+        "ProductName": "ASUS ProArt PA32UCX",
+        "BrandName": "ASUS",
+        "ProductImage": "https://m.media-amazon.com/images/I/81WqaJUMRWL._AC_SL1500_.jpg",
+        "Description": "Professional monitor with 4K HDR support.",
+        "LongDescription": "The ASUS ProArt PA32UCX is a professional monitor with 4K HDR support, providing precise color accuracy and detail for high-end content creation.",
+        "KeyFeatures": {
+            "Screen Size": "32-inch",
+            "Resolution": "3840x2160",
+            "Refresh Rate": "60Hz",
+            "Panel Type": "IPS",
+            "Features": "4K HDR, High color accuracy"
+        },
+        "Price": 1399.99,
+        "Category": "Monitor",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2023-12-25"
+    },
+    {
+        "ProductName": "Acer Predator X34",
+        "BrandName": "Acer",
+        "ProductImage": "https://m.media-amazon.com/images/I/71OFjNei9IL._AC_SL1500_.jpg",
+        "Description": "34-inch ultrawide monitor with high refresh rate for gaming.",
+        "LongDescription": "The Acer Predator X34 is a 34-inch ultrawide monitor with a high refresh rate, designed to deliver a smooth and immersive gaming experience with its curved screen and G-Sync support.",
+        "KeyFeatures": {
+            "Screen Size": "34-inch",
+            "Resolution": "3440x1440",
+            "Refresh Rate": "120Hz",
+            "Panel Type": "IPS",
+            "Features": "Curved, G-Sync support"
+        },
+        "Price": 1099.99,
+        "Category": "Monitor",
+        "Ratings": 4.7,
+        "ProductCreationDateTime": "2023-12-25"
+    },
+    {
+        "ProductName": "Samsung Odyssey Neo G9",
+        "BrandName": "Samsung",
+        "ProductImage": "https://m.media-amazon.com/images/I/81axb0KXNfL._AC_SL1500_.jpg",
+        "Description": "Super ultrawide monitor with high resolution and refresh rate.",
+        "LongDescription": "The Samsung Odyssey Neo G9 is a super ultrawide monitor with an impressive resolution and high refresh rate, providing an ultra-immersive experience for gaming and productivity.",
+        "KeyFeatures": {
+            "Screen Size": "49-inch",
+            "Resolution": "5120x1440",
+            "Refresh Rate": "240Hz",
+            "Panel Type": "VA",
+            "Features": "Super ultrawide, Quantum Dot technology"
+        },
+        "Price": 2299.99,
+        "Category": "Monitor",
+        "Ratings": 4.9,
+        "ProductCreationDateTime": "2024-01-16"
+    },
+    {
+        "ProductName": "Philips 279P1",
+        "BrandName": "Philips",
+        "ProductImage": "https://m.media-amazon.com/images/I/71Th5GAINeL._AC_SL1181_.jpg",
+        "Description": "27-inch 4K monitor with USB-C connectivity.",
+        "LongDescription": "The Philips 279P1 is a 27-inch 4K monitor featuring USB-C connectivity, designed to provide high-resolution visuals and convenient connectivity options for modern users.",
+        "KeyFeatures": {
+            "Screen Size": "27-inch",
+            "Resolution": "3840x2160",
+            "Refresh Rate": "60Hz",
+            "Panel Type": "IPS",
+            "Features": "USB-C, 4K UHD"
+        },
+        "Price": 549.99,
+        "Category": "Monitor",
+        "Ratings": 4.5,
+        "ProductCreationDateTime": "2024-03-16"
+    },
+    {
+        "ProductName": "ViewSonic Elite XG270QG",
+        "BrandName": "ViewSonic",
+        "ProductImage": "https://m.media-amazon.com/images/I/71m5r2k2x4L._AC_SL1500_.jpg",
+        "Description": "27-inch QHD gaming monitor with high refresh rate.",
+        "LongDescription": "The ViewSonic Elite XG270QG is a 27-inch QHD gaming monitor featuring a high refresh rate and NVIDIA G-Sync compatibility for an exceptional gaming experience.",
+        "KeyFeatures": {
+            "Screen Size": "27-inch",
+            "Resolution": "2560x1440",
+            "Refresh Rate": "165Hz",
+            "Panel Type": "IPS",
+            "Features": "G-Sync support, High refresh rate"
+        },
+        "Price": 699.99,
+        "Category": "Monitor",
+        "Ratings": 4.6,
+        "ProductCreationDateTime": "2024-05-16"
+    },
+    {
+        "ProductName": "Logitech MX Master 3S",
+        "BrandName": "Logitech",
+        "ProductImage": "https://m.media-amazon.com/images/I/41BLekzf2TL._AC_SL1001_.jpg",
+        "Description": "Wireless mouse with ergonomic design and customizable buttons.",
+        "LongDescription": "The Logitech MX Master 3S is a wireless mouse with an ergonomic design and customizable buttons, offering high precision and comfort for both work and gaming.",
+        "KeyFeatures": {
+            "Connectivity": "Wireless",
+            "Buttons": "7",
+            "DPI": "200-8000",
+            "Features": "Ergonomic design, Customizable buttons"
+        },
+        "Price": 129.99,
+        "Category": "Accessory",
+        "Ratings": 4.8,
+        "ProductCreationDateTime": "2024-05-16"
+    },
+    {
+        "ProductName": "Corsair K95 RGB Platinum",
+        "BrandName": "Corsair",
+        "ProductImage": "https://m.media-amazon.com/images/I/710ZdKYF6-L._AC_SL1500_.jpg",
+        "Description": "Mechanical gaming keyboard with customizable RGB backlighting.",
+        "LongDescription": "The Corsair K95 RGB Platinum is a mechanical gaming keyboard with customizable RGB backlighting and programmable macro keys for an enhanced gaming experience.",
+        "KeyFeatures": {
+            "Switch Type": "Cherry MX",
+            "Backlighting": "RGB",
+            "Macro Keys": "6",
+            "Features": "Customizable backlighting, Programmable macro keys"
+        },
+        "Price": 199.99,
+        "Category": "Accessory",
         "Ratings": 4.7,
         "ProductCreationDateTime": "2024-08-16"
     }

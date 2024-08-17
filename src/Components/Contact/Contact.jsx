@@ -80,9 +80,7 @@ const Contact = () => {
                   />
                 </svg>
               </span>
-              <span className="ml-3 text-gray-700">
-                123 Main Street, City, Country
-              </span>
+              <span className="ml-3 text-gray-700">123 Mirpur, Dhaka-1200</span>
             </div>
 
             <div className="flex items-center">

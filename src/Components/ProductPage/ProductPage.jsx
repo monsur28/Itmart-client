@@ -51,7 +51,6 @@ const ProductPage = () => {
   }, [axiosPublic]);
 
   useEffect(() => {
-    // Apply filtering based on search term and selected filters
     let filtered = products.filter((product) => {
       const matchesSearchTerm = product.ProductName.toLowerCase().includes(
         searchTerm.toLowerCase()

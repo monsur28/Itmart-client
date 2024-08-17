@@ -28,7 +28,7 @@ const ProductCard = () => {
           >
             <a href="#">
               <img
-                className="p-8 rounded-t-lg bg-transparent"
+                className="p-8 rounded-t-lg bg-transparent w-full h-72 object-contain"
                 src={product.ProductImage}
                 alt={product.ProductName}
               />

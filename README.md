@@ -32,6 +32,8 @@ Welcome to ITMart, a fully responsive and feature-rich e-commerce website built 
   - Tailwind CSS
   - React Router DOM
   - Axios
+  - Daisy UI
+  - Flowbit CSS
 - **Backend:**
   - Node.js
   - Express.js

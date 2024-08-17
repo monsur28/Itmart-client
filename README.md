@@ -2,6 +2,8 @@
 
 ![Project Logo](/src/assets//logo.png)
 
+![Live Link](https://itmart-b0bf0.web.app/)
+
 Welcome to ITMart, a fully responsive and feature-rich e-commerce website built using the MERN stack. This project focuses on providing a seamless shopping experience with functionalities such as product browsing, filtering, sorting, pagination, and user authentication.
 
 ## Table of Contents

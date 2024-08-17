@@ -31,6 +31,18 @@ const Navbar = () => {
       });
   };
 
+  const toggleCartModal = () => {
+    setIsCartModalOpen(!isCartModalOpen);
+  };
+
+  const handleRemoveItem = (itemId) => {
+    setCartItems(cartItems.filter((item) => item.id !== itemId));
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div>
       <nav className="bg-white fixed w-full z-20 top-0 start-0">

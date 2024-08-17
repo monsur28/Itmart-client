@@ -98,6 +98,7 @@ const ProductPage = () => {
   }, [filteredProducts, currentPage]);
 
   const handlePageChange = (pageNumber) => {
+    if (pageNumber < 1 || pageNumber > totalPages) return;
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -119,7 +120,34 @@ const ProductPage = () => {
         </button>
       );
     }
-    return pages;
+
+    return (
+      <div className="flex justify-center items-center m-5">
+        <button
+          onClick={() => handlePageChange(currentPage - 1)}
+          className={`px-4 py-2 mx-1 rounded-lg ${
+            currentPage === 1
+              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+          }`}
+          disabled={currentPage === 1}
+        >
+          Previous
+        </button>
+        {pages}
+        <button
+          onClick={() => handlePageChange(currentPage + 1)}
+          className={`px-4 py-2 mx-1 rounded-lg ${
+            currentPage === totalPages
+              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+          }`}
+          disabled={currentPage === totalPages}
+        >
+          Next
+        </button>
+      </div>
+    );
   };
 
   return (
@@ -224,32 +252,21 @@ const ProductPage = () => {
                         fill="currentColor"
                         viewBox="0 0 22 20"
                       >
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        <path d="M10.768.254a1 1 0 0 1 1.813 0l2.357 6.469 6.775.418a1 1 0 0 1 .586 1.781l-5.16 4.222 1.54 6.557a1 1 0 0 1-1.514 1.082L11 16.662 5.835 20.783a1 1 0 0 1-1.514-1.082l1.54-6.557-5.16-4.222a1 1 0 0 1 .586-1.781l6.775-.418L10.768.254Z" />
                       </svg>
                     ))}
-                    {product.Ratings % 1 > 0 && (
-                      <svg
-                        className="w-4 h-4 text-yellow-300"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 22 20"
-                      >
-                        <path d="M14.24 11.486l-.575-2.09a1 1 0 0 0-1.904-.08l-1.535 4.878-2.85.195a1 1 0 0 0-.609 1.724l2.367 2.159-.596 2.768a1 1 0 0 0 1.429 1.05l2.982-1.649 2.983 1.649a1 1 0 0 0 1.428-1.05l-.596-2.768 2.368-2.159a1 1 0 0 0-.608-1.724l-2.85-.195zM11.075 14.39a1 1 0 0 0 1.898-.572l-.479-1.713a1 1 0 0 0-.347-.508l-.745-.637 1.781.206a1 1 0 0 0 1.082-.868l.165-1.824a1 1 0 0 0-.758-1.092l-1.69-.36a1 1 0 0 0-1.044.62l-1.063 2.177-1.573-.188a1 1 0 0 0-1.091 1.123l.053.688a1 1 0 0 0 1.252.866l1.469-.27 1.208 1.03-.276 1.452z" />
-                      </svg>
-                    )}
                   </div>
-                  <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">
-                    {product.Ratings.toFixed(1)}
+                  <span className="bg-blue-100 text-blue-800 text-xs font-semibold ml-3 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
+                    {product.Ratings}
                   </span>
                 </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-3xl font-bold text-gray-900 ">
+                <div className="flex justify-between items-center">
+                  <span className="text-3xl font-bold text-gray-900 dark:text-black">
                     ${product.Price}
                   </span>
                   <Link
                     to={`/product/${product._id}`}
-                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     View Details
                   </Link>
@@ -258,14 +275,12 @@ const ProductPage = () => {
             </div>
           ))
         ) : (
-          <div>No products found</div>
+          <p>No products found.</p>
         )}
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex justify-center items-center m-8">
-        {renderPagination()}
-      </div>
+      {renderPagination()}
     </div>
   );
 };

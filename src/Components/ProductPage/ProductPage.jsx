@@ -20,37 +20,6 @@ const ProductPage = () => {
   const productsPerPage = 9;
 
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await axiosPublic.get("/products", {
-          params: {
-            limit: 100,
-          },
-        });
-
-        const allProducts = response.data.products;
-        setProducts(allProducts);
-        setFilteredProducts(allProducts);
-        setTotalPages(Math.ceil(allProducts.length / productsPerPage));
-
-        const uniqueBrands = [
-          ...new Set(allProducts.map((product) => product.BrandName)),
-        ];
-        const uniqueCategories = [
-          ...new Set(allProducts.map((product) => product.Category)),
-        ];
-
-        setBrands(uniqueBrands);
-        setCategories(uniqueCategories);
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    };
-
-    fetchProducts();
-  }, [axiosPublic]);
-
-  useEffect(() => {
     let filtered = products.filter((product) => {
       const matchesSearchTerm = product.ProductName.toLowerCase().includes(
         searchTerm.toLowerCase()
@@ -85,7 +54,6 @@ const ProductPage = () => {
       );
     }
 
-    // Update filtered products and pagination based on applied filters
     setFilteredProducts(filtered);
     setTotalPages(Math.ceil(filtered.length / productsPerPage));
     setCurrentPage(1);

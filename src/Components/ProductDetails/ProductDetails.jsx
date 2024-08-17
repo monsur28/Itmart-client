@@ -1,33 +1,31 @@
-import { useEffect, useState, useContext } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import useAxiosPublic from "../../Hooks/useAxiosPublic";
-import { CartContext } from "../../Hooks/useCart";
 
 const ProductDetails = () => {
-  const { id } = useParams(); // Get product ID from URL
-  const [product, setProduct] = useState(null); // State for storing product data
-  const [error, setError] = useState(null); // State for error handling
-  const axiosPublic = useAxiosPublic(); // Axios instance for API calls
-  const { addToCart } = useContext(CartContext); // Access addToCart from CartContext
+  const { id } = useParams();
+  const [product, setProduct] = useState(null);
+  const [error, setError] = useState(null);
+  const axiosPublic = useAxiosPublic();
 
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await axiosPublic.get(`/product/${id}`); // Fetch product data from API
+        const res = await axiosPublic.get(`/product/${id}`);
         setProduct(res.data); // Set product data
       } catch (error) {
         setError(
           "Error fetching product details. Please try again later.",
           error
-        ); // Handle errors
+        );
       }
     };
 
-    fetchProduct(); // Fetch product when component mounts
+    fetchProduct();
   }, [id, axiosPublic]);
 
-  if (error) return <div className="text-red-500">{error}</div>; // Show error message if there's an error
-  if (!product) return <div>Loading...</div>; // Show loading state while fetching data
+  if (error) return <div className="text-red-500">{error}</div>;
+  if (!product) return <div>Loading...</div>;
 
   return (
     <div className="container mx-auto p-4 mt-24">
@@ -71,12 +69,7 @@ const ProductDetails = () => {
             Added on:{" "}
             {new Date(product.ProductCreationDateTime).toLocaleDateString()}
           </p>
-          <button
-            className="btn btn-outline mt-5"
-            onClick={() => addToCart(product)} // Add to cart when button is clicked
-          >
-            Add to Cart
-          </button>
+          <button className="btn btn-outline mt-5">Add to Cart</button>
         </div>
       </div>
     </div>
